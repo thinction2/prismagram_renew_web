@@ -1,12 +1,12 @@
 import React from "react";
-import styled from "styled-components";
-import { isLoggedInVar } from "../apollo";
+
+import { logUserOut } from "../apollo";
 
 const Home = () => {
   return (
     <div>
-      <h1>Home</h1>
-      <button onClick={() => isLoggedInVar(false)}>Log out Now!</button>
+      <h1>Wellcome we did it!</h1>
+      <button onClick={() => logUserOut()}>Log out Now!</button>
     </div>
   );
 };

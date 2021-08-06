@@ -18,3 +18,4 @@ react-helmet-async
 @apollo/client & graphql
 @fortawesome/[icons, font, ...]
 styled-reset
+prop-types
