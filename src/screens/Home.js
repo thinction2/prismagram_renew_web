@@ -1,5 +1,4 @@
 import React from "react";
-
 import { logUserOut } from "../apollo";
 
 const Home = () => {
