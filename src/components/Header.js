@@ -13,7 +13,7 @@ import Avatar from "./Avatar";
 const SHeader = styled.header`
   width: 100%;
   border-bottom: 1px solid ${(props) => props.theme.borderColor};
-  border-color: ${(props) => props.theme.bgColor};
+  margin-bottom: 10px;
   padding: 18px 0;
   display: flex;
   align-items: center;
@@ -47,7 +47,6 @@ const IconsContainer = styled.div`
 const Header = () => {
   const isLoggedIn = useReactiveVar(isLoggedInVar);
   const { data } = useUser();
-  console.log(data);
   return (
     <SHeader>
       <Warpper>

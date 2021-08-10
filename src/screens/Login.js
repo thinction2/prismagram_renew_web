@@ -13,7 +13,6 @@ import FormError from "../components/auth/FormError";
 import Input from "../components/auth/Input";
 import Separator from "../components/auth/Separator";
 import { routes } from "../routes";
-import PropTypes from "prop-types";
 import PageTitle from "../components/PageTitle";
 import { useForm } from "react-hook-form";
 import { gql, useMutation } from "@apollo/client";
@@ -140,12 +139,6 @@ const Login = () => {
       />
     </AuthLayout>
   );
-};
-
-BottomBox.propTypes = {
-  cta: PropTypes.string.isRequired,
-  link: PropTypes.string.isRequired,
-  linkText: PropTypes.string.isRequired,
 };
 
 export default Login;
