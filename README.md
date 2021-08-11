@@ -19,3 +19,4 @@ react-helmet-async
 @fortawesome/[icons, font, ...]
 styled-reset
 prop-types
+sanitize-html => clean the html tag
