@@ -29,5 +29,6 @@ export const GloabalStyles = createGlobalStyle`
     }
     a {
       text-decoration: none;
+      color: inherit;
     }
 `;
